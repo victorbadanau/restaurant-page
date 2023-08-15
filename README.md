@@ -1,2 +1,2 @@
-# restaurant-page
-TOP assignment: restaurant page project
+# The Odin Project: Restaurant Page
+## Assignment: make a restaurant page using javascript(using a module bundler - webpack)
