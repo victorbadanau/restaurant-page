@@ -1,1 +1,1 @@
-alert("Restaurant Page!");
+const content = document.getElementById("content");
