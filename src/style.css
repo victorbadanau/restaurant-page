@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: "title";
-  src: url(/src/fonts/Tangerine-Bold.ttf) format("truetype");
+  src: url(./fonts/Tangerine-Bold.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "type";
-  src: url(/src/fonts/Rasa.ttf) format("truetype");
+  src: url(./fonts/Rasa.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "description";
-  src: url(/src/fonts/Caudex-Regular.ttf) format("truetype");
+  src: url(./fonts/Caudex-Regular.ttf) format("truetype");
 }
 
 * {
@@ -28,7 +28,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: url(background.jpg);
+  background: url(./icons/background.jpg);
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
