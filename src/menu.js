@@ -1,12 +1,12 @@
-import gamberetti from "./src/icons/gamberetti.png";
-import contessa from "./src/icons/contessa.png";
-import bufala from "./src/icons/bufala.png";
-import salmone from "./src/icons/salmone.png";
-import tartuffo from "./src/icons/tartuffo.png";
-import spinacio from "./src/icons/spinacio.png";
-import arugula from "./src/icons/arugula.png";
-import magherita from "./src/icons/magherita.png";
-import salsiccia from "./src/icons/salsiccia.png";
+import gamberetti from "./icons/gamberetti.png";
+import contessa from "./icons/contessa.png";
+import bufala from "./icons/bufala.png";
+import salmone from "./icons/salmone.png";
+import tartuffo from "./icons/tartuffo.png";
+import spinacio from "./icons/spinacio.png";
+import arugula from "./icons/arugula.png";
+import magherita from "./icons/magherita.png";
+import salsiccia from "./icons/salsiccia.png";
 
 export default function menu() {
   const element = document.createElement("div");
@@ -101,10 +101,10 @@ function pizza(image, type, description) {
   pizza.classList.add("pizza");
 
   const h2 = document.createElement("h2");
-  h2.innerHTML = `${type}`;
+  h2.innerHTML = type;
 
   const p = document.createElement("p");
-  p.innerHTML = `${description}`;
+  p.innerHTML = description;
 
   pizza.appendChild(image);
   pizza.appendChild(h2);

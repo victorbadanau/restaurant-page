@@ -1,4 +1,4 @@
-import Icon from './src/icons/home-background.svg'
+import Icon from './icons/home-background.svg'
 
 export default function home() {
   const element = document.createElement('div');
