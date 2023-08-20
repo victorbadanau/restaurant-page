@@ -28,7 +28,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: url(../src/icons/background.jpg);
+  background: url(background.jpg);
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
@@ -105,7 +105,8 @@ main {
 .home img {
   width: 250px;
   height: 250px;
-  filter: invert(97%) sepia(31%) saturate(7470%) hue-rotate(179deg) brightness(132%) contrast(99%);
+  filter: invert(97%) sepia(31%) saturate(7470%) hue-rotate(179deg)
+    brightness(132%) contrast(99%);
 }
 
 .menu {
