@@ -3,6 +3,13 @@ import './style.css';
 import home from "./home.js";
 import menu from "./menu.js";
 import contact from "./contact.js";
+ 
+function documentHeight() {
+  const doc = document.documentElement;
+  doc.style.setProperty('--doc-height', `${window.innerHeight}px`);
+}
+window.addEventListener('resize', documentHeight);
+documentHeight();
 
 function component() {
   const content = document.createElement("div");
